@@ -1,0 +1,191 @@
+.login {
+  margin-top: 68px;
+  text-align: center;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #223263;
+  margin-top: 16px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+  margin-top: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+}
+
+.form label {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.form input {
+  background: #FFFFFF;
+  border: 1px solid #EBF0FF;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+  padding: 13px 50px 16px;
+  outline: none;
+}
+.form input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+}
+.form input:focus {
+  border: 1px solid #40BFFF;
+}
+
+.form label > div {
+  display: none;
+}
+
+.form label:is(.error) > div {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #FB7181;
+  display: block;
+  margin-top: 8px;
+}
+
+.form label svg {
+  width: 20px;
+  height: 15.5px;
+  top: 18px;
+  left: 18px;
+  position: absolute;
+}
+
+.form label:focus-within svg path {
+  fill: #40BFFF;
+}
+.form > label:is(.error) svg path {
+  fill: #FB7181;
+}
+.form > label:is(.error) input {
+  border-color: #FB7181;
+}
+.btn {
+  background: #40BFFF;
+  box-shadow: 0 10px 30px rgba(64, 191, 255, 0.24);
+  border-radius: 5px;
+  padding: 16px 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+}
+
+.line-with-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.005em;
+  color: #9098B1;
+  text-align: center;
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-with-text:before, .line-with-text:after {
+  content: "";
+  display: block;
+  width: 137px;
+  height: 1px;
+  background: #EBF0FF;
+}
+
+.btn-light {
+  border: 1px solid #EBF0FF;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 10px 30px rgba(64, 191, 255, 0.24));
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+.btn-icon {
+  position: relative;
+}
+
+.btn-icon:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  left: 16px;
+  position: absolute;
+}
+
+.btn-icon-google:before {
+  background: url("../../img/google.svg") center no-repeat;
+}
+
+.btn-icon-facebook:before {
+  background: url("../../img/facebook.svg") center no-repeat;
+}
+
+.link-primary {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #40BFFF;
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.link-wrapper {
+  text-align: center;
+}
