@@ -1,0 +1,75 @@
+header {
+  padding: 16px 0;
+  border-bottom: 1px solid #EBF0FF;
+  position: sticky;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar > div {
+  flex-grow: 1;
+}
+.topbar > div:first-child {
+  flex-grow: 5;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  text-align: right;
+}
+
+.notification > div {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #FB7181;
+  position: absolute;
+  top: -2px;
+  left: 80%;
+}
+
+.form label {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.form input {
+  background: #FFFFFF;
+  border: 1px solid #EBF0FF;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+  padding: 13px 50px 16px;
+  outline: none;
+}
+.form input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+}
+.form input:focus {
+  border: 1px solid #40BFFF;
+}
+
+.form label svg {
+  top: 5px;
+  left: 18px;
+  position: absolute;
+}
+.search-wrapper form {
+  position: relative;
+}

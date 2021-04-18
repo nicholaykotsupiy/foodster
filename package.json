@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "parcel-bundler": "^1.12.5",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "src": "^1.1.2"
   },
   "devDependencies": {
     "sass": "^1.32.10"
