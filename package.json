@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html src/pages/*.html --port 8080"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "scss": "^0.2.4",
-    "parcel-bundler": "^1.12.5"
+    "@splidejs/splide": "^2.4.21",
+    "parcel-bundler": "^1.12.5",
+    "scss": "^0.2.4"
   },
   "devDependencies": {
     "sass": "^1.32.10"
