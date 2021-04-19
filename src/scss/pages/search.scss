@@ -15,14 +15,3 @@
   margin: 16px 0;
   padding: 16px 0;
 }
-
-input[type=search]::-webkit-search-cancel-button {
-  content: '';
-  display: none;
-}
-
-.search-icon {
-  position: absolute;
-  right: 16px;
-  top: 14px;
-}
