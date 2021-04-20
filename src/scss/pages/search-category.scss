@@ -1,0 +1,37 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  margin-top: 26px;
+  padding: 26px 0;
+  border-bottom: 1px solid #EBF0FF;
+}
+
+.category-list ul {
+  list-style-type: none;
+}
+
+.category-list li {
+  padding: 19px 0;
+}
+
+.category-list li:hover {
+  background: #EBF0FF;
+}
+.title-category {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #223263;
+  margin-left: 16px;
+}
+
+.category-item > div {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.active .title-category {
+  color: #40BFFF;
+}
