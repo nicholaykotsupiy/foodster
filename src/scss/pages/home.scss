@@ -1,6 +1,6 @@
-@import "reset";
+@import "src/scss/reset";
 body {
-  font-family: Poppins;
+  font-family: 'Poppins';
 }
 * {
   box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
   }
   .search__input::before {
     content: '';
-    background-image: url("../img/home/search.png");
+    background-image: url("../../img/home/search.png");
     position: absolute;
     top: 32px;
     margin-left: 20px;
@@ -51,23 +51,18 @@ body {
   margin-bottom: 48px;
   .item{
     width: 100%;
-    background: linear-gradient(180deg, #000000 -73.06%, rgba(0, 0, 0, 0) 100%), url('../img/home/sale_slider/slide_item.png') center no-repeat;
+    background: linear-gradient(180deg, #000000 -73.06%, rgba(0, 0, 0, 0) 100%), url('../../img/home/sale_slider/slide_item.png') center no-repeat;
     background-size: cover;
     border-radius: 5px;
     margin: 10px auto;
-    .info-title {
-
-    }
-    .info-description {}
   }
   .splide__pagination {
     position: absolute;
-    top: 215px;
+    top: 225px;
   }
   .splide__pagination__page[aria-current="true"] {
     background: #40BFFF;
   }
-
   .title {
     font-family: 'Poppins';
     width: 210px;
@@ -143,7 +138,7 @@ body {
 }
 .info-card{
   width: 100%;
-  background: linear-gradient(180deg, #000000 -73.06%, rgba(0, 0, 0, 0) 100%), url('../img/home/info.png') center no-repeat;
+  background: linear-gradient(180deg, #000000 -73.06%, rgba(0, 0, 0, 0) 100%), url('../../img/home/info.png') center no-repeat;
   background-size: cover;
   border-radius: 5px;
   margin: 14px auto;
@@ -166,7 +161,7 @@ body {
 }
 .card {
   padding: 16px;
-  margin: 16px;
+  margin: 10px;
   border: 1px solid #EBF0FF;
   border-radius: 5px;
   .image {}
