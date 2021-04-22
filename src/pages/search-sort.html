@@ -2,9 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../scss/main.scss">
+    <link rel="stylesheet" href="../scss/pages/search-category.scss">
+    <title>Sort by</title>
 </head>
 <body>
-
+<div class="content">
+    <div class="breadcrumb">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18L9 12L15 6" stroke="#9098B1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="title-breadcrumb">Sort by</div>
+    </div>
+    <div class="category-list">
+        <ul>
+            <li class="category-item active">
+                <div class="title-category">Best Match</div>
+            </li>
+            <li class="category-item">
+                <div class="title-category">Time: ending soonest</div>
+            </li>
+            <li class="category-item">
+                <div class="title-category">Time: newly listed</div>
+            </li>
+            <li class="category-item">
+                <div class="title-category">Price + Shipping: lowest first</div>
+            </li>
+            <li class="category-item">
+                <div class="title-category">Price + Shipping: highest first</div>
+            </li>
+            <li class="category-item">
+                <div class="title-category">Distance: nearest first</div>
+            </li>
+        </ul>
+    </div>
+</div>
 </body>
 </html>

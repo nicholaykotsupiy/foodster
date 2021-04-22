@@ -2,9 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../scss/main.scss">
+    <link rel="stylesheet" href="../scss/pages/search-category.scss">
+    <link rel="stylesheet" href="../scss/pages/search-filter.scss">
+    <title>Filter</title>
 </head>
 <body>
+<div class="content">
+    <div class="breadcrumb">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.5">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7145 5.28616C15.0399 5.61159 15.0399 6.13923 14.7145 6.46467L6.46492 14.7142C6.13948 15.0397 5.61185 15.0397 5.28641 14.7142C4.96097 14.3888 4.96097 13.8612 5.28641 13.5357L13.536 5.28616C13.8614 4.96072 14.3891 4.96072 14.7145 5.28616Z" fill="#223263"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.2855 5.28616C5.61094 4.96072 6.13857 4.96072 6.46401 5.28616L14.7136 13.5357C15.039 13.8612 15.039 14.3888 14.7136 14.7142C14.3882 15.0397 13.8605 15.0397 13.5351 14.7142L5.2855 6.46467C4.96006 6.13923 4.96006 5.61159 5.2855 5.28616Z" fill="#223263"/>
+            </g>
+        </svg>
+        <div class="title-breadcrumb">Filter</div>
+    </div>
+    <div class="filter-wrapper">
+        <form action="#">
+            <div class="price-wrapper">
+                <div class="title-filter">Price Range</div>
+                <div class="price-input">
+                    <input type="number" placeholder="From" min="0" name="price_min" value="10000">
+                    <input type="number" placeholder="To" max="20800" name="price_max" value="15000">
+                </div>
+                <div class="price-range">
+                    <div class="background-range"></div>
+                    <div class="line-range"></div>
+                    <div class="left-dot" draggable="true"></div>
+                    <div class="right-dot" draggable="true"></div>
+                </div>
+            </div>
+            <div class="checkbox-wrapper">
+                <div class="title-filter">Condition</div>
+                <input type="text" value="" name="condition" hidden>
+                <ul class="checkbox-items">
+                    <li class="checkbox-item" data-key="1" data-model="condition">New</li>
+                    <li class="checkbox-item" data-key="2" data-model="condition">Used</li>
+                    <li class="checkbox-item" data-key="3" data-model="condition">Not Specified</li>
+                </ul>
+            </div>
+            <div class="checkbox-wrapper">
+                <div class="title-filter">Item Location</div>
+                <input type="text" value="" name="item_location" hidden>
+                <ul class="checkbox-items">
+                    <li class="checkbox-item" data-key="1" data-model="item_location">US Only</li>
+                    <li class="checkbox-item" data-key="2" data-model="item_location">North America</li>
+                    <li class="checkbox-item" data-key="3" data-model="item_location">Europe</li>
+                    <li class="checkbox-item" data-key="3" data-model="item_location">Asia</li>
+                </ul>
+            </div>
+            <div class="checkbox-wrapper">
+                <div class="title-filter">Show Only</div>
+                <input type="text" value="" name="show_only" hidden>
+                <ul class="checkbox-items">
+                    <li class="checkbox-item" data-key="1" data-model="show_only">Free Returns</li>
+                    <li class="checkbox-item" data-key="2" data-model="show_only">Returns Accepted</li>
+                    <li class="checkbox-item" data-key="3" data-model="show_only">Authorized Seller</li>
+                    <li class="checkbox-item" data-key="3" data-model="show_only">Completed Items</li>
+                    <li class="checkbox-item" data-key="3" data-model="show_only">Sold Items</li>
+                    <li class="checkbox-item" data-key="3" data-model="show_only">Deals & Savings</li>
+                    <li class="checkbox-item" data-key="3" data-model="show_only">Sale Items</li>
+                    <li class="checkbox-item" data-key="3" data-model="show_only">Listed as Lots</li>
+                    <li class="checkbox-item" data-key="3" data-model="show_only">Search in Description</li>
+                    <li class="checkbox-item" data-key="3" data-model="show_only">Benefits charity</li>
+                    <li class="checkbox-item" data-key="3" data-model="show_only">Authenticity Verified</li>
+                </ul>
+            </div>
+            <button>Apply</button>
+        </form>
+    </div>
+</div>
 
+<script src="../js/range.js"></script>
+<script src="../js/checkbox-filter.js"></script>
 </body>
 </html>

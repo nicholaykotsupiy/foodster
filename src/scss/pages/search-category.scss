@@ -11,7 +11,8 @@
 }
 
 .category-list li {
-  padding: 19px 0;
+  padding: 19px;
+  box-sizing: border-box;
 }
 
 .category-list li:hover {

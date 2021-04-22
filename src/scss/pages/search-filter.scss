@@ -1,0 +1,113 @@
+.filter-wrapper, .checkbox-wrapper {
+  margin-top: 16px;
+}
+.checkbox-wrapper {
+  margin-top: 24px;
+}
+.background-range {
+  width: 100%;
+  position: absolute;
+  background: #EBF0FF;
+  border-radius: 8px;
+  height: 4px;
+}
+.price-range {
+  position: relative;
+  margin-top: 12px;
+}
+.line-range {
+  position: absolute;
+  background: #40BFFF;
+  border-radius: 8px;
+  height: 4px;
+}
+.left-dot, .right-dot {
+  width: 20px;
+  height: 20px;
+  background: #40BFFF;
+  position: absolute;
+  top: -8px;
+  border-radius: 100%;
+}
+
+.title-filter {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #223263;
+  margin-bottom: 21px;
+}
+
+.price-input input {
+  background: #FFFFFF;
+  border: 1px solid #EBF0FF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+  padding: 16px 13px;
+  padding-right: 0;
+}
+
+.price-input input:focus {
+  border: 1px solid #40BFFF;
+}
+
+.checkbox-items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.checkbox-item {
+  border: 1px solid #EBF0FF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.active-checkbox {
+  background: rgba(64, 191, 255, 0.1);
+  border-radius: 5px;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #40BFFF;
+}
+
+.filter-wrapper button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  background: #40BFFF;
+  box-shadow: 0 10px 30px rgba(64, 191, 255, 0.24);
+  border-radius: 5px;
+  border: none;
+  padding: 16px 0;
+  width: 100%;
+  outline: none;
+  margin: 16px 0;
+}
