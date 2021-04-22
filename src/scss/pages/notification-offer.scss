@@ -1,0 +1,69 @@
+@import "src/scss/reset";
+
+body {
+  font-family: 'Poppins';
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+.wrapper {
+  padding: 0 10px 0;
+}
+.top-bar {
+  padding: 27px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #EBF0FF;
+  img {
+    cursor: pointer;
+    margin-right: 26px;
+  }
+  span {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #223263;
+  }
+}
+.notification_list {
+  .notification_item {
+    position: relative;
+    padding-left: 30px;
+    margin: 16px 0 16px;
+    cursor: pointer;
+    .notification-caption {
+      margin: 8px 0;
+      font-weight: bold;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #223263;
+      font-size: 14px;
+    }
+    .notification-body {
+      margin: 8px 0;
+      font-size: 12px;
+      line-height: 180%;
+      letter-spacing: 0.5px;
+      color: #9098B1;
+    }
+    .notification-footer {
+      margin: 8px 0;
+      font-size: 10px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #223263;
+    }
+  }
+  .notification_item:before {
+    content: '';
+    background: url("../../img/notification/item1.svg") center no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
