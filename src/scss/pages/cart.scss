@@ -1,0 +1,220 @@
+.product-items {
+  list-style-type: none;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background: #FFFFFF;
+  border: 1px solid #EBF0FF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.title-flash-btn, .price-qty {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.price-qty {
+  margin-top: 12px;
+}
+.img {
+  border-radius: 5px;
+  margin-right: 12px;
+}
+.qty, .minus, .plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minus, .plus, .qty-text {
+  padding: 4px 8px;
+}
+.qty-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #223263;
+  opacity: 0.5;
+  background: #EBF0FF;
+}
+.qty {
+  border: 1px solid #EBF0FF;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #40BFFF;
+
+}
+.title-product {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #223263;
+}
+
+.is-wish path{
+  stroke: none;
+  fill: #FB7181;
+}
+.flash-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.cupon-form form {
+  display: flex;
+  width: 100%;
+  margin-top: 32px;
+}
+.cupon-form input {
+  background: #FFFFFF;
+  border: 1px solid #EBF0FF;
+  box-sizing: border-box;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+  outline: none;
+  width: 66%;
+}
+.cupon-form input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+}
+
+.is-error input {
+  border: 1px solid #FB7181;
+}
+.error-msg {
+  display: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #FB7181;
+  margin-top: 8px;
+
+}
+.is-error .error-msg {
+  display: block;
+}
+.cupon-form button {
+  padding: 17px 24px;
+  background: #40BFFF;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  width: 33%;
+}
+.total {
+  background: #FFFFFF;
+  border: 1px solid #EBF0FF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 16px;
+  margin-top: 16px;
+}
+.total-list {
+  list-style-type: none;
+}
+.total-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+.total-item .title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #9098B1;
+}
+.total-item .information {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #223263;
+
+}
+.total-item:first-child {
+  margin-top: 0;
+}
+.total-item:last-child {
+  padding-top: 12px;
+  border-top: 1px dashed #EBF0FF;
+}
+.total-item:last-child .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #223263;
+}
+.total-item:last-child .information {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #40BFFF;
+}
+
+.checkout {
+  margin: 16px 0;
+}
+.checkout a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  background: #40BFFF;
+  box-shadow: 0px 10px 30px rgba(64, 191, 255, 0.24);
+  border-radius: 5px;
+  padding: 16px 0;
+}
