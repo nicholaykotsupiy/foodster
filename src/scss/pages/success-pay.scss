@@ -1,0 +1,47 @@
+.success-info {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #223263;
+}
+.subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #223263;
+  opacity: 0.5;
+  margin-top: 8px;
+}
+.btn {
+  width: 100%;
+  background: #40BFFF;
+  box-shadow: 0px 10px 30px rgba(64, 191, 255, 0.24);
+  border-radius: 5px;
+  text-align: center;
+  padding: 16px;
+  box-sizing: border-box;
+  margin-top: 16px;
+}
+.btn a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../scss/main.scss">
+    <link rel="stylesheet" href="../../node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <link rel="stylesheet" href="../scss/pages/choose_card.scss">
+    <title>Choose card</title>
+</head>
+<body>
+<div class="content">
+    <div class="breadcrumb">
+        <div class="left-content">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 18L9 12L15 6" stroke="#9098B1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="title-breadcrumb">Choose Card</div>
+        </div>
+        <div class="add-ship">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 3.33331V12.6666" stroke="#40BFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3.33325 8H12.6666" stroke="#40BFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+    <div class="cards-list splide sale_slide">
+        <div class="splide__track card">
+            <ul class="splide__list">
+                <li class="splide__slide item">
+                    <canvas class="card-canvas" data-key="1"></canvas>
+                </li>
+                <li class="splide__slide item">
+                    <canvas class="card-canvas" data-key="2"></canvas>
+                </li>
+                <li class="splide__slide item">
+                    <canvas class="card-canvas" data-key="3"></canvas>
+                </li>
+                <li class="splide__slide item">
+                    <canvas class="card-canvas" data-key="4"></canvas>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="pay-btn">
+        <a href="#">Pay $766.86</a>
+    </div>
+</div>
+<script src="../js/card-canvas.js"></script>
+</body>
+</html>

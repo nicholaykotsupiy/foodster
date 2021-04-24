@@ -1,0 +1,21 @@
+.payment-list {
+  list-style-type: none;
+}
+.payment {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.title-payment {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #223263;
+  margin-left: 16px;
+}
+.active {
+  background: #EBF0FF;
+}

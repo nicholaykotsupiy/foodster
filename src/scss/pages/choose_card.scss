@@ -1,0 +1,42 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-content {
+  display: flex;
+  align-items: center;
+}
+.cards-list {
+  margin-top: 16px;
+}
+.splide__pagination {
+  bottom: -16px;
+}
+.splide__pagination__page {
+  background: #EBF0FF;
+}
+.splide__pagination__page.is-active {
+  background: #40BFFF;
+}
+.pay-btn {
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+  box-sizing: border-box;
+  background: #40BFFF;
+  box-shadow: 0px 10px 30px rgba(64, 191, 255, 0.24);
+  border-radius: 5px;
+  margin-top: 70%;
+  margin-bottom: 16px;
+}
+.pay-btn a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
